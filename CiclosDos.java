@@ -46,6 +46,6 @@ public class CiclosDos {
             }
         i++;    
         j--;
-        }while(1<=5);
+        }while(i<=5);
     }
 }
