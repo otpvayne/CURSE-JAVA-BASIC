@@ -18,7 +18,7 @@ public class CiclosDos {
         i=1;
         j=99;
         System.out.println("Serie con while: ");
-        while (i<=5) {
+        while(i<=5) {
             if (i<5) {
                 System.out.print(i+",");
                 System.out.print(j+",");
@@ -29,7 +29,7 @@ public class CiclosDos {
             }
         i++;    
         j--;
-        }
+}
         System.out.println("");
         i=1;
         j=99;
@@ -46,6 +46,6 @@ public class CiclosDos {
             }
         i++;    
         j--;
-        }while(1<5);
+        }while(1<=5);
     }
 }
